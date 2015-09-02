@@ -117,7 +117,8 @@ console.log(a.length)
 
 Write a `Person` object with a member function `get_name()` and a `Programmar` object that requires a name on creation. Then create an specific object named `jim` that results in the following:  
 
-```
+```js
+var jim = new Programmer('Jim');
 jim.get_job() // I am an engineer
 jim.get_name() // my name is Jim
 ```
