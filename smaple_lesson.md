@@ -9,7 +9,7 @@ properties of a new object
 | **Section** | **Timing** | **Description**                                                         |
 |-------------|------------|-------------------------------------------------------------------------|
 | Opening     | 1 - 2 min  | overview of topic                                                       | 
-| I Do        | 3 - 4 min  | Prototypal inheritance using Constructor                |
+| I Do        | 3 - 4 min  | Prototypal inheritance using Constructor                                |
 | We do       | 5 min      | Students write their own constructor methods with Prototype/Inheritance |
 | Closing     | 5 min      | Feedbacks, remarks, questions, etc
 
@@ -65,7 +65,7 @@ Javascript objects can inherit properties directly from other objects by using t
 
 **Example using a Constructor method**
 
-```
+```js
 var Mammal = function(){
   this.breath = function(){
 		console.log('inhale and exhale');
@@ -100,7 +100,7 @@ Prototypal inheritance can be created with a number of syntax. This is one of th
 
 **Example**
 
-```
+```js
 var a = {}
 console.log(a.prototype)
 console.log(a.__proto__)
@@ -124,7 +124,7 @@ jim.get_name() // my name is Jim
 
 **Sample Result**
 
-```
+```js
 var Person = function(){
   this.get_name = function(){
 		console.log('my name is ' + this.name);
