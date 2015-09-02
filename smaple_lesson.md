@@ -30,7 +30,7 @@ For presentation there will be a few Powerpoint slides, all the codes can be fou
 **Question:** "What is an object in Ruby?"
 
 **Answer**
-Objects are instances of classes 
+Objects are instances of classes in Ruby
 
 **Example**
 
@@ -46,12 +46,11 @@ class Cat < Mammal
     puts "Meow"  
   end  
 end  
-```
 
 garfield = Cat.new  
 garfield.breathe  
 garfield.speak  
-
+```
 ## I Do: Prototypal inheritance using Constructor
 
 **Question:** "What is an object in Javascript"
