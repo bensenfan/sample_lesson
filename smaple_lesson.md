@@ -19,7 +19,7 @@ Student should have knowledge of Ruby objects and Ruby OOP practices, they shoul
 
 ### Materials
 
-For presentation there will be a few Powerpoint slides, all the codes can be found in separate .js and .rb files. 
+All the codes can be found in separate .js and .rb files
 
 -----------------------------------------------------------------------------------------------------
 
